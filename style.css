@@ -1,0 +1,545 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+#loading-wrapper{
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100vh;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: 
+	center;
+}
+#loading{
+	height: 100px;
+	width: 100px;
+	border: 5px solid black;
+	animation: load 3s infinite backwards;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+
+}
+@keyframes load{
+	0%{
+		transform: translateY(0px);
+
+	}
+	100%{
+		transform: translateY(50px) rotate(360deg);
+
+	}
+}
+body{
+	/*background-color: #5CACEE;*/
+	/*background-color: #0EBFE9;*/
+/*	background-color: tomato;*/
+overflow-x: hidden;
+}
+
+.float-solver{
+	clear: both;
+}
+#container{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	border-top: 2px solid black;
+	
+	
+}
+#containerp{
+
+	width: 95%;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+#contains{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.float{
+	float: left;
+}
+#brand-name{
+	text-decoration: none;
+	line-height: 0.8;
+	position: relative;
+	top: 40px;
+	left: 20px;
+
+}
+#name{
+	letter-spacing: 2.5px;
+	color: #E3097F;
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+.sub-heading{
+	transform: rotate(90deg);
+	margin-top: 30px;
+}
+.tiles{
+	width: 50px;
+	height: 150px;
+    text-align: center;
+	background-color: rgba(49,163,550,1);
+	font-size: 23px;
+	letter-spacing: 2px;
+	margin-left: 40px;	
+	float: right;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	color: white;
+	transform: perspective(800px) scale(1,1) 
+	translate3d(0,0,0) rotateY(-30deg) rotateX(0deg);
+	transition: transform 1s;
+	transform-origin:  top left;
+	text-transform: uppercase;
+	
+
+	
+}
+.tiles:hover{
+	box-shadow: 0px 0px 20px #664c7d;
+
+	
+	transform:perspective(800px) scale(1.2,1.2) translate3d(-10px,10px,10px) rotateX(30deg); 
+
+
+
+}
+.wcre{
+	height: 170px;
+	position: relative;
+	z-index: 1;
+}
+.whre{
+	height: 110px;
+}
+.wpre{
+	height: 160px;
+	position: relative;
+	z-index: 1;
+}
+.ware{
+	height: 125px;
+}
+.wvre{
+	height: 140px;
+}
+header{
+	animation: sample 2s;
+	animation-fill-mode: forwards;
+}
+#image{
+	width: 100%;
+	height: 700px;
+    animation: change 10s infinite;
+		
+	position: relative;
+}
+.import{
+	font-size: 60px;
+	font-weight: bold;
+}
+#motto{
+	line-height: 0.8;
+	color: black;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: middle;
+	position: absolute;
+	top: 200px;
+	
+}
+#shead1{
+	font-size: 35px;
+	
+}
+#shead2{
+	
+	font-size: 35px;
+	position: relative;
+	left: 75px;
+}
+
+@keyframes sample{
+	0%{
+		background-color: white;
+		width: 100%;
+		height: 0px;
+		
+		}
+	100%{
+		background: linear-gradient(45deg,rgba(49,163,220,1) 0%,rgba(49,163,220,1) 5%,rgba(116,199,169,1) 100%);
+		width:100%;
+		height: 180px;
+		 
+	}
+}
+@keyframes change{
+	0%{
+		background: url('mom4 wcg.png') no-repeat;
+	background-size: 100% 100%;
+
+	}
+	20%{
+		background: url('mom4 wcg.png') no-repeat;
+	background-size: 100% 100%;
+
+	}
+	33.33%{
+		background: url('adult-child-hands-holding-red-heart-aqua-background_49149-908.jpg') no-repeat;
+		background-size: 100% 100%;
+	}
+	53.33%{
+		background: url('adult-child-hands-holding-red-heart-aqua-background_49149-908.jpg') no-repeat;
+		background-size: 100% 100%;
+	}
+	66.66%{
+		background: url('website final vibrance.png') no-repeat;
+	background-size: 100% 100%;
+
+	}
+	86.66%{
+		background: url('website final vibrance.png') no-repeat;
+	background-size: 100% 100%;
+
+	}
+	100%{
+		background: url('mom4 wcg.png') no-repeat;
+	background-size: 100% 100%;
+
+	}
+	
+}
+/***************************End of image***********/
+#About1{
+	width: 100%;
+	height:650px;
+	box-shadow: 0px 0px 30px black;
+	background: url('18424.jpg') no-repeat;
+    background-size: cover;
+	
+}
+#About2{
+	width: 100%;
+	height:650px;
+	box-shadow: 0px 0px 30px black;
+	background: url('national-cancer-institute-1fvqUP-xaYQ-unsplash.jpg') no-repeat;
+    background-size: cover;
+    animation : ap 7s infinite;
+    
+  }
+#text{
+	color: white;
+	animation: vista 3s 5s  both;
+	 
+}
+#us{
+	
+	background-color: black;
+	opacity: 0.8;
+
+	animation: about 3s 5s both ease-in-out ;
+	position: relative;
+	bottom: 650px;
+	
+	
+}
+#text{
+	font-size: 24px;
+	text-align: center;
+	line-height: 1.7;
+
+}
+#she1{
+	padding-top: 20px; 
+	text-align: center;
+	font-size: 50px;
+}
+@keyframes vista{
+	0%{
+		position: absolute;
+		opacity: 0;
+	}
+	100%{
+		position: static;
+		opacity: 1;
+	}
+}
+
+
+@keyframes about{
+	0%{
+		height:650px;
+		width: 0%;
+		padding: 0px;
+		display: none;
+	}
+	100%{
+		height: 650px;
+		width: 43%;
+		padding: 50px;
+		padding-top: 100px;
+		display: visible;
+	}
+}
+@keyframes ap{
+	0%{
+		opacity: 1;
+	}
+	20%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	70%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+/********************END OF ABOUT US******************************/
+hr{
+	width: 70%;
+	border-top: 2px solid white;
+	position: relative;
+	bottom: 30px;
+	left: 300PX;
+}
+
+#Products{
+	width: 100%;
+	height: 170px;
+	box-shadow: 0px 0px 30px black;
+	background-color: #7fc8fe;
+    margin-top: 50px;
+}
+#pc{
+	width: 100%;
+	height: 650px;
+}
+#prod{
+	padding-left: 50PX;
+	
+	font-size: 50px;
+	color: white;
+	font-size: bold;
+	position: relative;
+}
+.ramp{
+	width: 307.56px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px black;
+}
+#prod0{
+	animation: translate 20s 6s infinite alternate ;
+    position: absolute;
+	left: 100px;
+	background: url('first page.png') no-repeat;
+	background-size: cover;
+	
+}
+#prod1{
+	animation: translate 20s 6s infinite alternate ;
+    position: absolute;
+	left: 600px;
+	background: url('medical poster 3.jpg') no-repeat;
+	background-size: cover;
+	
+}
+#prod2{
+	animation: translate 20s 6s infinite alternate ;
+    position: absolute;
+	left: 1100px;
+	background: url('medical poster 2.jpg') no-repeat;
+	background-size: cover;
+	
+}
+#prod3{
+	animation: translate 20s 6s infinite alternate;
+
+	position: absolute;
+	left: 1600px;
+	background: url('WhatsApp Image 2020-07-17 at 13.12.36.jpeg') no-repeat;
+	background-size: 100% 100%;
+}
+#prod4{
+	animation: translate 20s 6s infinite alternate;
+    position: absolute;
+	left: 2100px;
+	background: url('medical poster 4.png') no-repeat;
+	background-size: 100%;
+}
+#prod5{
+	animation: translate 20s 6s infinite alternate;
+    position: absolute;
+	left: 2600px;
+	background: url('medical poster 5.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+
+@keyframes translate{
+
+	0%{
+		transform: translate(0px);
+	}
+	20%{
+		transform: translate(-500px);
+	}
+	25%{
+		transform: translate(-500px);
+	}
+	45%{
+		transform: translate(-1000px);
+	}
+	50%{
+		transform: translate(-1000px);
+	}
+	70%{
+		transform: translate(-1500px);
+	}
+	75%{
+		transform: translate(-1500px);
+	}
+	95%{
+		transform: translate(-1800px);
+	}
+	100%{
+		transform: translate(-1800px);
+	}
+
+}
+/***************************************End Of Producta***********************/
+#vision{
+	width: 100%;
+	height: 600px;
+	box-shadow: 0px 0px 30px black;
+	animation: photos 10s infinite;
+	background-color: #cff7f9;
+	position: relative;
+
+}
+#photos{
+	width: 40%;
+	height: 600px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: url('jared-rice-NTyBbu66_SI-unsplash.jpg') no-repeat;
+	background-size: cover;
+}
+#vtext{
+	width: 60%;
+	height: 600px;
+	color: white;
+	font-size: 50px;
+	padding: 50px;
+	letter-spacing: 2px;
+	position: absolute;
+	left: 0px;
+	background: linear-gradient(to bottom,rgba(250,175,63,1) 0%,rgba(254,201,94,1) 100%);
+	
+
+}
+
+
+/***************************************End Of Vision***********************/
+
+#pee{
+
+	margin-top: 30px;
+	background:linear-gradient(to bottom,rgba(132,192,222,1) 0%,rgba(60,153,200,1) 100%);
+	position: relative;
+	height: 245px;
+	position: relative;
+}
+
+#brand-logo1{
+	float: left;
+	width: 20%;
+	padding-top: 60px;
+	text-align: center;
+}
+.final-text{
+	float: left;
+	width: 25%;
+	
+	height: 245px;
+	
+	padding-left: 70px;
+	color: white;
+	display: flex;
+	align-items: center;
+	
+}
+.final-text div{
+	line-height: 0.8;
+}
+
+.final-text a{
+	display: inline;
+	text-decoration: none;
+	color: black;
+}
+
+.final-text div{
+	font-size: 40px;
+}
+.final-text a:hover{
+	color: blue;
+}
+
+
+.hai a{
+	font-size: 30px;
+}
+#content{
+	float: left;
+	width:30%;
+	padding-left: 150px;
+	padding-top: 20px;
+	line-height: 1.8;
+	font-size: 25px;
+	color: white;
+	
+}
+#no a{
+	text-decoration: none;
+	color: white;
+	
+}
+#no a:hover{
+	color: blue;
+}
+#copyright{
+	width: 100%;
+	font-size: 15px;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background:linear-gradient(to bottom,rgba(132,192,222i7,1) 0%,rgba(60,153,200,1) 100%);
+
+}
